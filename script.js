@@ -82,7 +82,7 @@ btnHold.addEventListener("click", () => {
       scores[activeplayer];
   }
 
-  if (scores[activeplayer] >= 5) {
+  if (scores[activeplayer] >= 50) {
     playing = false;
     document
       .querySelector(`.player--${activeplayer}`)
